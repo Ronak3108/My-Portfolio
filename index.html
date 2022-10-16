@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronak Kumar Bothra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <ul id="nav-list">
+            <li class="nav-items"><a href="#">Home</a></li>
+            <li class="nav-items"><a href="#about">About</a></li>
+            <li class="nav-items"><a href="#projects">Projects</a></li>
+            <li class="nav-items"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 id="title">My Name is <span id="name">Ronak Kumar Bothra</span></h1>
+        <p id="Home-subTxt">And I am a <span class="auto-type"></span></p>
+
+        <p class="subTxt" style="margin-top: 1rem;">Hey there! Welcome to my website.</p>
+    </section>
+
+
+
+    <section id="about">
+        <p><span class="head">About Me<br></span>Hello and welcome to my website. I am <span
+                class="highlight">Ronak</span> and I am a student of <span class="highlight">Class
+                10<sup>th</sup></span> studying at <span class="highlight">Allen, Kota</span>. I started my coding on a
+            serious basis in 2020 when I was in class 8<sup>th</sup>. Before that It was just a leisure activity to me.
+            I enjoy doing this work. Today I have developed an appropriate skill-set whick is display in the graph..</p>
+
+
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="85" style="max-width: 85%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60" style="max-width: 60%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90" style="max-width: 90%;"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-name">C++</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="20" style="max-width: 20%;"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="projects">
+        <h1 class="head" style="margin: 10vh 0 0 0;">My Projects</h1>
+    </section>
+
+
+
+
+
+    <section id="contact">
+        <h1 class="head" style="margin: 10vh 0 0 0;">Contact Me</h1>
+
+        <div class="form-container">
+            <form action="">
+                <label for="fname">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="email">Last Name</label>
+                <input type="email" id="email" name="email" placeholder="Your Email..">
+
+                <label for="message">Last Name</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message.."></textarea>
+
+                <input onclick="" type="submit" value="Submit">
+            </form>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Student.", "Coder.", "Good Guy."],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

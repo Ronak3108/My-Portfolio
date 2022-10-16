@@ -1,0 +1,232 @@
+/* Fonts here!! */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Roboto+Mono:wght@600&display=swap');
+/* font-family: 'Fira Code', monospace;
+font-family: 'Roboto Mono', monospace; */
+
+
+.subTxt {
+    color: white;
+    font-size: 20px;
+}
+
+.highlight {
+    color: #bbc408;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-size: cover;
+}
+
+/* navigation bar starts from here-------------------------------------------------------------------- */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, .15);
+}
+
+#nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#nav-list li {
+    margin: 1rem 1rem;
+}
+
+#nav-list li a {
+    text-decoration: none;
+    color: white;
+    transition: all 150ms;
+}
+
+#nav-list li a:active, #nav-list li a:hover{
+    color: #bbc408;
+}
+
+#nav-list li a:hover{
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 238, 0), 0 0 0.2em rgb(255, 238, 0);
+}
+
+
+/* Home section begins------------------------------------------------------------------------- */
+
+
+#home {
+    background-color: #050505;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+}
+
+#title {
+    text-align: center;
+    font-size: min(10vh, 40px);
+    color: white;
+}
+
+#name {
+    color: #bbc408;
+}
+
+#Home-subTxt {
+    color: white;
+    font-size: min(10vw, 30px);
+}
+
+.auto-type {
+    color: #bbc408;
+}
+
+/* Home section ends------------------------------------------------------------------------- */
+
+
+/* About section begins------------------------------------------------------------------------- */
+
+#about {
+    display: flex;
+    height: 100vh;
+    background-color: #151515;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#about p {
+    color: white;
+    margin: 0 5rem 0 0;
+    width: 30vw;
+}
+
+.skills {
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .025);
+    /* box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, .025); */
+    box-shadow: 2px 2px 20px 1px rgba(166, 255, 0, 0.5);
+    backdrop-filter: blur(15px);
+    width: 50%;
+    max-width: 600px;
+    padding: 25px 25px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.skill-per {
+    height: 14px;
+    background: yellow;
+}
+
+
+#projects {
+    display: flex;
+    height: 100vh;
+    background-color: #252525;
+    background-size: cover;
+    justify-content: center;
+}
+
+.head {
+    font-size: 3rem;
+    color: yellow;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 238, 0), 0 0 0.2em rgb(255, 238, 0);
+
+}
+
+/* Projects section ends----------------------------------------------------------------------------- */
+
+/* contact section starts-------------------------------------------------------------------------- */
+
+#contact{
+    display: flex;
+    height: 100vh;
+    background-color: #353535;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container{
+    background-color: rgba(255, 255, 255, .15);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, .05);
+    box-shadow: 10px 10px 20px 15px rgba(0, 0, 0, .25);
+    backdrop-filter: blur(15px);
+    margin: 25px 25px;
+}
+
+label, textarea, input{
+    display: block;
+}
+
+label{
+    margin: 2vh;
+    color: yellow;
+}
+
+input, textarea{
+    background-color: #444;
+    color: white;
+    width: 65vh;
+    padding: 0.75rem 0.5rem;
+    font-family: 'Fira Code', monospace;
+    border: none;
+    resize: none;
+    margin: 0 25px;
+}
+
+input[type=email]{
+    color: yellow;
+}
+
+input[type=submit]{
+    margin: 3rem auto;
+    color: white;
+    border: 2px solid #353535;
+    transition: all 300ms ease-in-out;
+}
+
+input[type=submit]:hover{
+    color: yellow;
+    border: 2px solid  yellow;
+    box-shadow: 2px 2px 25px 10px rgba(255, 230, 0, 0.123);
+}
+
+
+
+
+
+
+
+
